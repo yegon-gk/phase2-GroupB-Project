@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Phase 2: Group B Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Members:
+1. Yegon (Scrum Master.)
+2. Faith
+3. Shadrack
+4. Noah
+5. Adrian
+6. OmarFarouk
 
-## Available Scripts
+#### Repository link
+https://github.com/KIPROTYCH/Group-B-Project.git
 
-In the project directory, you can run:
 
-### `npm start`
+## Table of Content
+1. Description.
+2. Project Setup.
+3. Installation Requirements.
+4. Technology Used.
+5. License.
+6. Auther.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The project aims to implement a mini web app using React to practice essential concepts such as components, props, state, events, and data fetching. The web app is designed to display a list of bots and provide additional functionalities like enlisting and releasing bots for a user's army.
 
-### `npm test`
+### Key Features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Components and Props:
+The app utilizes React components to create modular and reusable UI elements. Components like BotCollection and YourBotArmy are employed to display the available bots and the user's enlisted bots, respectively. Props are used to pass data from parent components to child components, enabling seamless data transfer and rendering.
 
-### `npm run build`
+#### State and Events:
+React's state management is employed to handle dynamic data within the application. The useState hook is utilized to manage the list of bots and the enlisted bots. Events like enlisting and releasing bots trigger state updates, ensuring a responsive user interface.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Data Fetching:
+The app utilizes the Axios library to fetch data from an API endpoint. Upon loading, the app retrieves a list of bots from the server and stores it in the application's state for rendering on the UI.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Grid Layout:
+To enhance the UI's visual appeal and organization, the bots are displayed in a grid layout. This layout dynamically adjusts based on available space, ensuring a clean and aesthetically pleasing presentation.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Setup
 
-### `npm run eject`
+### Installation Requirements
+1. A Functional Laptop.
+2. A good internet connection.
+3. VS Code.
+4. GitHub Account.
+5. Postman
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Technology Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Ubuntu:
+A widely used open-source operating system based on Linux, known for its user-friendly interface and community-driven development.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### VS CODE:
+A source code editor that offers a wide range of features for developers, including debugging, extensions, and customization options.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Github:
+A web-based platform where developers can store, manage, and share their code repositories and collaborate on projects among developers worldwide.
 
-## Learn More
+#### React.js:
+An open-source JavaScript library for building user interfaces. It uses JSX, a JavaScript syntax extension for defining UI components. With its virtual DOM and one-way data flow, React efficiently updates the actual DOM. Developers favor React for its simplicity and reusability, making it a top choice for modern web development.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### CSS:
+Cascading Style Sheets is a language used to describe the appearance and formatting of HTML elements in web pages, enabling visual design and layout control.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### DB Jason:
+A special way to store and exchange data, similar to JSON. It's designed for databases and makes it easier to save and retrieve information efficiently.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Conclusion
 
-### Analyzing the Bundle Size
+This mini web app showcases a practical implementation of React concepts, allowing users to interact with a list of bots and build their own bot army. By integrating components, props, state, events, and data fetching, the project demonstrates a fundamental understanding of React's core features, paving the way for more complex and feature-rich applications in the future.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The content of this repository is licensed under the MIT License.
