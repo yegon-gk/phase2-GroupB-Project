@@ -45,3 +45,9 @@
 .home-content h1 {
   margin-bottom: 20px;
 }
+
+.home-content p,
+.home-right-section p,
+.home-left-section p {
+  color: #282c34;
+}
