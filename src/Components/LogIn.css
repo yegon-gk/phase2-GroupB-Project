@@ -1,0 +1,36 @@
+.logincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .loginimage {
+    flex: 1;
+    background-image: url('https://images.hdqwalls.com/wallpapers/nature-background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loginimage h2 {
+    font-size: 80px; 
+    font-weight: bold;
+    color: #fff; 
+  }
+  
+  .loginform {
+    flex: 1;
+    padding: 20px;
+    max-width: 400px;
+  }
+  
+  .loginform h2 {
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  .loginform input {
+    margin-bottom: 10px;
+  }

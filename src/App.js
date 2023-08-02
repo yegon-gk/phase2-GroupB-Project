@@ -1,4 +1,12 @@
 
+
+import React from 'react';
+import SignUp from './Components/SignUp';
+import LogIn from './Components/LogIn';
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
+
+
+
 import React, { useState, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Components/Home";
@@ -17,6 +25,16 @@ export default function App() {
 
 
   return (
+
+    <Router>
+      <div>
+        <Routes>
+          <Route path='/login' element={<LogIn/>}/>
+          <Route path='/' element={<SignUp/>}/>
+        </Routes>
+      </div>
+    </Router>
+
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -26,5 +44,6 @@ export default function App() {
         {/* <Route path="/Signup" element={<SignUp />} /> */}
       </Routes>
     </div>
+
   );
 }
