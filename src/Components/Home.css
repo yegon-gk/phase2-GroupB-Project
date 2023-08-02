@@ -97,4 +97,9 @@
   margin-top: 20px;
 }
 
+@media screen and (min-width: 1024px) {
+  .home-section-hidden {
+    display: none;
+  }
+}
 
