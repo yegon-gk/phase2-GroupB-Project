@@ -2,21 +2,93 @@
   "tours": [
     {
       "id": 1,
-      "name": "3 days Tour of Tajmahal",
-      "location": "Agra, India",
-      "info": "It is an ivory-white marble mausoleum...",
-      "price": "65.5",
+      "name": "Melbourne Haven: Elegance & Urban Oasis",
+      "location": "Melbourne VIC, Australia",
+      "info": "Iconic Melbourne residence: Urban elegance, vibrant living, gourmet kitchen, tranquil garden oasis, prime cultural hotspot access",
+      "price": "$65.5",
       "ratings": 4.8,
-      "image": "https://tinyurl.com/24lr53om"
+      "image": "https://tinyurl.com/289csedm"
     },
     {
       "id": 2,
-      "name": "Two's a pair in Amboseli, Kenya",
-      "location": "Amboseli, Kenya",
-      "info": "Agra Fort is a historical fort...",
+      "name": "Medellín Heights: Serene Escape",
+      "location": "Medellín, Medellín, Colombia",
+      "info": "Hillside Medellín gem: Modern design, panoramic views, open interiors, private terrace, cultural proximity, serene retreat amidst vibrant city.",
+      "price": "$35.5",
+      "ratings": 3.5,
+      "image": "https://tinyurl.com/2ax2872d"
+    },
+    {
+      "id": 3,
+      "name": "Exquisite Spanish villa:",
+      "location": "Madrid, Spain",
+      "info": "Timeless elegance meets modern opulence. Panoramic views, lavish interiors, Mediterranean allure, and private luxury amenities.",
+      "price": "$45.67",
+      "ratings": 4.7,
+      "image": "https://tinyurl.com/23fdjzsa"
+    },
+    {
+      "id": 4,
+      "name": "Burj Al-Arab, Dubai",
+      "location": "Dubai, United Arab Emirates",
+      "info": "The Tehri Dam is the tallest dam...",
+      "price": "20.5",
+      "ratings": 4.2,
+      "image": "https://tinyurl.com/2auxomkx"
+    },
+    {
+      "id": 5,
+      "name": "Cuban Sunrise",
+      "location": "Cuba",
+      "info": "The Tehri Dam is the tallest dam...",
+      "price": "20.5",
+      "ratings": 4.6,
+      "image": "https://tinyurl.com/26qzq8e8"
+    },
+    {
+      "id": 6,
+      "name": "swimming pool between green palm trees at night",
+      "location": "Maldives",
+      "info": "The Tehri Dam is the tallest dam...",
+      "price": "20.5",
+      "ratings": 4.9,
+      "image": "https://tinyurl.com/2626g4tb"
+    },
+    {
+      "id": 7,
+      "name": "Balinese private villa and pool",
+      "location": "Bali, Indonesia",
+      "info": "The Tehri Dam is the tallest dam...",
+      "price": "20.5",
+      "ratings": 4.4,
+      "image": "https://tinyurl.com/22azsyuh"
+    },
+    {
+      "id": 8,
+      "name": "The Canadian Luxury Retreat",
+      "location": "Canada, Maplewood Manor",
+      "info": "Nestled in Canada's wilderness, this opulent estate epitomizes luxury. Grandeur meets nature with sprawling interiors, exquisite craftsmanship, and breathtaking vistas",
+      "price": "$120.5",
+      "ratings": 4.7,
+      "image": "https://tinyurl.com/2aaycqye"
+    },
+    {
+      "id": 9,
+      "name": "A beach with palm trees and water",
+      "location": "Maldives",
+      "info": "The Tehri Dam is the tallest dam...",
+      "price": "20.5",
+      "ratings": 4.3,
+      "image": "https://tinyurl.com/2csdjcwm"
+    },
+    {
+      "id": 2,
+      "name": "Opulent Glenwood Haven",
+      "location": "Iowa, Glenwood, United States",
+      "info": "Glenwood Gem: Inviting home, modern comforts, tranquil surroundings, spacious interiors, scenic views, a perfect blend of serenity and convenience",
       "price": "35.5",
       "ratings": 4.5,
-      "image": "https://tinyurl.com/28bqa388"
+      "image": "https://tinyurl.com/22hmukfx"
     },
     {
       "id": 3,
@@ -65,12 +137,12 @@
     },
     {
       "id": 8,
-      "name": "Baobab tree",
-      "location": "Madagascar",
-      "info": "The Tehri Dam is the tallest dam...",
+      "name": "Downtown Urban Retreat: Modern Living",
+      "location": "Autralia, VIC",
+      "info": "Captivating coastal residence in Australia, blending contemporary design with oceanic allure. Expansive living spaces, panoramic views, and nature-inspired tranquility",
       "price": "20.5",
       "ratings": 4.7,
-      "image": "https://tinyurl.com/2cqecgk6"
+      "image": "https://tinyurl.com/289s5j8t"
     },
     {
       "id": 9,
@@ -82,76 +154,13 @@
       "image": "https://tinyurl.com/2csdjcwm"
     },
     {
-      "id": 2,
-      "name": "Two's a pair in Amboseli, Kenya",
-      "location": "Amboseli, Kenya",
-      "info": "Agra Fort is a historical fort...",
-      "price": "35.5",
-      "ratings": 4.5,
-      "image": "https://tinyurl.com/28bqa388"
-    },
-    {
-      "id": 3,
-      "name": "Shipton's Camp Ground, Mount Kenya, Kenya",
-      "location": "Mount Kenya, Kenya",
-      "info": "The India Gate (formerly known as...",
-      "price": "45.67",
-      "ratings": 4.7,
-      "image": "https://tinyurl.com/2yeo74z6"
-    },
-    {
-      "id": 4,
-      "name": "Burj Al-Arab, Dubai",
-      "location": "Dubai, United Arab Emirates",
-      "info": "The Tehri Dam is the tallest dam...",
-      "price": "20.5",
-      "ratings": 4.2,
-      "image": "https://tinyurl.com/2auxomkx"
-    },
-    {
-      "id": 5,
-      "name": "Cuban Sunrise",
-      "location": "Cuba",
-      "info": "The Tehri Dam is the tallest dam...",
-      "price": "20.5",
-      "ratings": 4.6,
-      "image": "https://tinyurl.com/26qzq8e8"
-    },
-    {
-      "id": 6,
-      "name": "swimming pool between green palm trees at night",
-      "location": "Maldives",
-      "info": "The Tehri Dam is the tallest dam...",
-      "price": "20.5",
-      "ratings": 4.9,
-      "image": "https://tinyurl.com/2626g4tb"
-    },
-    {
-      "id": 7,
-      "name": "Balinese private villa and pool",
-      "location": "Bali, Indonesia",
-      "info": "The Tehri Dam is the tallest dam...",
-      "price": "20.5",
-      "ratings": 4.4,
-      "image": "https://tinyurl.com/22azsyuh"
-    },
-    {
-      "id": 8,
-      "name": "Baobab tree",
-      "location": "Madagascar",
-      "info": "The Tehri Dam is the tallest dam...",
-      "price": "20.5",
-      "ratings": 4.7,
-      "image": "https://tinyurl.com/2cqecgk6"
-    },
-    {
       "id": 9,
-      "name": "A beach with palm trees and water",
-      "location": "Maldives",
-      "info": "The Tehri Dam is the tallest dam...",
-      "price": "20.5",
+      "name": "Secluded Forest Cabin: Nature's Hideaway",
+      "location": "Bourg saint maurice",
+      "info": "Rustic cabin nestled amidst towering trees, offering a cozy escape. Crackling fireplace, nature views, and serene seclusion for tranquility.",
+      "price": "$70.5",
       "ratings": 4.3,
-      "image": "https://tinyurl.com/2csdjcwm"
+      "image": "https://tinyurl.com/25twzks6"
     }
   ]
 }
