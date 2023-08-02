@@ -30,6 +30,22 @@ function Home() {
           alt="pool in a yard"
         />
       </div>
+
+      <div className="home-section-unhidden">
+        <img src="https://tinyurl.com/237dsfx8" alt="Oasis" />
+        <div className="home-left-section">
+          <h2>Introducing Enchanted Oasis.</h2>
+          <p>
+            Nestled in the heart of an idyllic landscape, "Enchanted Oasis"
+            beckons you with its irresistible allure. This exquisite 3-bedroom
+            haven boasts an aura of enchantment that will whisk you away from
+            the mundane and immerse you in a world of pure bliss. Surrounded by
+            lush foliage and vibrant blooms, the villa exudes an air of
+            tranquility that invites you to escape the bustle of everyday life
+            and embrace the magic of this extraordinary retreat.
+          </p>
+        </div>
+      </div>
       
     </div>
   );
