@@ -8,6 +8,8 @@ class ContactForm extends Component {
 
   render() {
     return (
+      <div>
+        <h1>Send a message to us!</h1>
       <form className="contact-form" onSubmit={this.handleSubmit}>
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" name="name" />
@@ -20,6 +22,7 @@ class ContactForm extends Component {
 
         <button type="submit">Send Message</button>
       </form>
+      </div>
     );
   }
 }
