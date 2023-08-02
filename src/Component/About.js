@@ -40,12 +40,7 @@ function About() {
               width={80}
             />
             <p className="lg:w-[800px] md:w-[600px] w-fit p-2 text-left">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Asperiores dolores eius dolore obcaecati itaque, reiciendis
-              recusandae. Eligendi amet ex voluptatum atque reprehenderit
-              reiciendis aspernatur repudiandae! Dolorum, atque blanditiis
-              distinctio cupiditate dignissimos accusantium natus corporis, quis
-              laudantium ipsam qui expedita soluta.
+            A selection of pristine, expertly designed homes with high-end amenities, services, and dedicated trip designers.
             </p>
           </div>
         </div>
