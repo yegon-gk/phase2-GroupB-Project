@@ -91,3 +91,10 @@
    width: 500px;
 }
 
+.home-section p,
+.home-section-hidden p,
+.home-section-unhidden p{
+  margin-top: 20px;
+}
+
+
