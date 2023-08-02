@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 // import Home from "./Components/Home";
@@ -14,6 +15,8 @@ export default function App() {
   useEffect(() => {
     setTours(data.tours);
   }, []);
+import './App.css';
+import Home from './Components/Home';
 
   return (
     <div>
@@ -24,6 +27,7 @@ export default function App() {
         <Route path="/Service" element={<Service tours={tours} />} />
         {/* <Route path="/Signup" element={<SignUp />} /> */}
       </Routes>
+    <Home/>
     </div>
   );
 }
