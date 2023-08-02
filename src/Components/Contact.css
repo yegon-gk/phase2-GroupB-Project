@@ -59,30 +59,3 @@ button:hover {
 
 
 
-/*
-@media (max-width: 768px) {
-  .contact-form {
-    padding: 20px;
-    max-width: 100%;
-  }
-
-  input,
-  textarea {
-    padding: 10px;
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 576px) {
-  .contact-form {
-    padding: 15px;
-  }
-
-  input,
-  textarea {
-    padding: 8px;
-    font-size: 13px;
-  }
-}
-*/
-

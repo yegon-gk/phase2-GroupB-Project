@@ -5,16 +5,21 @@ class ContactForm extends Component {
     name: '',
     email: '',
     message: '',
+    isMessageSent: false,
   };
 
   handleSubmit = (e) => {
     e.preventDefault();
-    alert('Message submitted!');
-    this.setState({
-      name: '',
-      email: '',
-      message: '',
-    });
+
+    this.setState({ isMessageSent: true });
+    setTimeout(() => {
+      this.setState({
+        name: '',
+        email: '',
+        message: '',
+        isMessageSent: false,
+      });
+    }, 2000);
   };
 
   handleChange = (e) => {
@@ -25,7 +30,7 @@ class ContactForm extends Component {
   };
 
   render() {
-    const { name, email, message } = this.state;
+    const { name, email, message, isMessageSent } = this.state;
 
     return (
       <div>
@@ -46,5 +51,5 @@ class ContactForm extends Component {
     );
   }
 }
-
 export default ContactForm;
+
