@@ -51,3 +51,14 @@
 .home-left-section p {
   color: #282c34;
 }
+
+.home-section ,
+.home-section-unhidden,
+.home-section-hidden {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
