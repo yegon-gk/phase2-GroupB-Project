@@ -1,0 +1,27 @@
+.signupcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signupimage {
+    flex: 1;
+    background-image: url('https://images.hdqwalls.com/wallpapers/nature-background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signupform {
+    flex: 1;
+    padding: 20px;
+    max-width: 400px;
+  }
+  
+  .signupform h2 {
+    font-weight: bold;
+  }
