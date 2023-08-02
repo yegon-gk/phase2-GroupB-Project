@@ -18,7 +18,7 @@ class ContactForm extends Component {
         <label htmlFor="message">Message:</label>
         <textarea id="message" name="message" />
 
-        <button type="submit">Submit</button>
+        <button type="submit">Send Message</button>
       </form>
     );
   }
