@@ -26,3 +26,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.home-title {
+  font-size: 3rem;
+  font-weight: 800;
+}
