@@ -70,10 +70,10 @@
 .home-section img,
 .home-section-hidden img,
 .home-section-unhidden img {
-  width: 400px; 
+  width: 450px; 
   max-width: 100%; 
   height: auto; 
-  max-height: 40vh;
+  max-height: 60vh;
   object-fit: cover;
   border-radius: 20px;
   cursor: pointer;
@@ -99,7 +99,7 @@
 .home-section ,
 .home-section-hidden,
 .home-section-unhidden {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .home-section p,
