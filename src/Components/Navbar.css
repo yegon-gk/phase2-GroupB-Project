@@ -6,7 +6,6 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   width: 95%;
   height: 80px;
-  border-radius: 13px;
   position: fixed;
   top: 20px;
   left: 50%;
@@ -31,7 +30,6 @@
   padding: 1.7rem 1rem;
   font-weight: 600;
   margin-right: 10px;
-  /* Add some breathing space between links */
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 

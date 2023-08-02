@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 import data from "../db.json";
 import "../styles.css"; 
-
-import "./service.css"; // Import your CSS stylesheet for Service
+import "./service.css"; 
 
 const Card = ({ tour, isSelected, onToggleSelect }) => {
   return (
@@ -24,7 +23,7 @@ const Card = ({ tour, isSelected, onToggleSelect }) => {
       </div>
       <div className="image-details text-center">
         <p className="text-white">{tour.location}</p>
-        <p className="text-yellow-500">Ratings: {tour.ratings}</p>
+        <p className="text-yellow-500">Ratings: {tour.ratings} &#9733;</p>
       </div>
       <div className="image-info bg-white p-4 rounded mt-4 text-center">
         <p className="text-gray-600">{tour.info}</p>
@@ -41,6 +40,14 @@ const Service = () => {
   const [selectedCards, setSelectedCards] = useState([]);
   const [bookedCards, setBookedCards] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
+
+  const renderStars = (rating) => {
+    const stars = [];
+    for (let i = 0; i < rating; i++) {
+      stars.push(<span key={i} className="text-yellow-500">&#9733;</span>);
+    }
+    return stars;
+  };
 
   const handleToggleSelect = (id) => {
     setSelectedCards((prevSelected) => {
@@ -106,7 +113,7 @@ const Service = () => {
                     {tour.name}
                   </h3>
                   <p className="text-gray-400">{tour.location}</p>
-                  <p className="text-yellow-500">Ratings: {tour.ratings}</p>
+                  <p className="text-yellow-500">Ratings: {renderStars(tour.ratings)}</p>
                 </div>
                 {selectedCards.includes(tour.id) ? (
                   <button
@@ -151,7 +158,7 @@ const Service = () => {
                         {tour.name}
                       </h3>
                       <p className="text-gray-400">{tour.location}</p>
-                      <p className="text-yellow-500">Ratings: {tour.ratings}</p>
+                      <p className="text-yellow-500">Ratings: {renderStars(tour.ratings)}</p>
                     </div>
                     <button
                       className="bg-blue-500 text-white px-2 py-1 mt-4 rounded-sm"

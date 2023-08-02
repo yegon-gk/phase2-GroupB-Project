@@ -22,7 +22,7 @@ function Navbar() {
     <div>
       <nav className="nav-items">
         <NavLink to="/">
-          <h1 className="nav-logo font-bold">Explore</h1>{" "}
+          <h1 className="nav-logo font-bold text-white">Explore</h1>{""}
         </NavLink>
         <div className="menu-icon" onClick={menuChangeHandler}>
           {menuicon ? <RxCross1 /> : <GiHamburgerMenu />}
