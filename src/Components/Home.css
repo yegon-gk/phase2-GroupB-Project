@@ -103,3 +103,9 @@
   }
 }
 
+@media screen and (max-width: 1023px) {
+  .home-section-unhidden {
+    display: none;
+  }
+}
+
