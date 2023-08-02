@@ -1,0 +1,130 @@
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 95%;
+  height: 80px;
+  border-radius: 13px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 999;
+  background-color: #fff;
+}
+
+.nav-logo {
+  color: #222;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
+.links {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 1.7rem 1rem;
+  font-weight: 600;
+  margin-right: 10px;
+  /* Add some breathing space between links */
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.links:hover {
+  background-color: #01959a;
+  color: white;
+  border-radius: 4px;
+}
+button {
+  padding: 0.75rem 1rem;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+  margin-left: 4px;
+  white-space: nowrap;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.menu-icon {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-items {
+    z-index: 99;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    background-color: white;
+    align-items: stretch;
+    opacity: 0;
+    margin: 0;
+    height: auto;
+    padding: 80px 0 30px 0;
+    text-align: center;
+    transition: all 0.3 ease-in-out;
+    border-radius: 13px;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .nav-menu.active {
+    left: 0;
+    opacity: 1;
+    z-index: -1;
+    transition: all 0.3 ease-in-out;
+  }
+
+  .links {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 2rem 0;
+  }
+  .links:hover {
+    background-color: #01959a;
+    color: white;
+    transition: none;
+  }
+
+  button {
+    border-radius: 4px;
+    width: 60%;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    background-color: #01959a;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .nav-logo {
+    font-size: 1.5rem;
+  }
+}
