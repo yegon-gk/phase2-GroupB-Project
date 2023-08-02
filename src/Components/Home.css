@@ -72,5 +72,12 @@
   border-radius: 20px;
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
+.home-section img:hover ,
+.home-section-unhidden img:hover,
+.home-section-hidden img:hover{
+  filter: brightness(1.05);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
 }
