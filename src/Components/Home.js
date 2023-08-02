@@ -62,7 +62,21 @@ function Home() {
         </div>
         <img src="https://images.unsplash.com/photo-1447727214830-cbcbf097b52c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1896&q=80" />
       </div>
-      
+
+      <div className="home-section">
+        <div className="home-right-section">
+          <h2>Brown wooden dock on blue lake during daytime</h2>
+          <p>
+            Serenity Haven is a luxurious and private villa nestled amidst
+            breathtaking natural surroundings. Situated on a secluded hilltop,
+            this exquisite retreat offers unparalleled panoramic views of lush
+            green valleys, sparkling rivers, and majestic mountains. The villa's
+            architecture seamlessly blends modern elegance with traditional
+            charm, creating a perfect harmony with its surroundings.
+          </p>
+        </div>
+        <img src="https://tinyurl.com/2y7fswym" alt="wooden-dock" />
+      </div>
     </div>
   );
 }
