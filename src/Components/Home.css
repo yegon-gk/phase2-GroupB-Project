@@ -56,7 +56,7 @@
 .home-section-unhidden,
 .home-section-hidden {
   display: flex;
-  gap: 20px;
+  gap: 40px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
