@@ -81,3 +81,8 @@
   transform: scale(1.05);
   transition: all 0.3s ease;
 }
+
+.home-right-section {
+  width: 400px;
+  height: 200px;
+}
