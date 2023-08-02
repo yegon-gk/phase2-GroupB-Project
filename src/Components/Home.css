@@ -46,8 +46,8 @@
   margin-bottom: 50px;
 }
 
-.home-content h1 {
-  margin-bottom: 20px;
+.home-content p {
+  font-size: 14px;
 }
 
 .home-content p,
