@@ -46,6 +46,22 @@ function Home() {
           </p>
         </div>
       </div>
+
+      <div className="home-section-hidden">
+        <div className="home-right-section">
+          <h2>Mt.Daguldul, Bantangas</h2>
+          <p>
+            Nestled amidst the enchanting landscapes of Batangas, Philippines,
+            Mt. Daguldul invites you to embark on an unforgettable adventure.
+            This hidden gem offers a sanctuary of natural beauty, with lush
+            green valleys, sparkling rivers, and majestic mountains waiting to
+            be explored. Wander along its scenic trails, breathe in the crisp
+            mountain air, and marvel at the stunning panoramic views from the
+            summit.
+          </p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1447727214830-cbcbf097b52c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1896&q=80" />
+      </div>
       
     </div>
   );
