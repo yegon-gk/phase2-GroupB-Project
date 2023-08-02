@@ -104,6 +104,17 @@
   margin-top: 20px;
 }
 
+.home-right-section,
+.home-left-section {
+  min-height: 220px;
+}
+
+.home-section h2,
+.home-section-unhidden h2,
+.home-section-hidden h2 {
+  font-size: 1.2rem;
+}
+
 @media screen and (min-width: 1024px) {
   .home-section-hidden {
     display: none;
