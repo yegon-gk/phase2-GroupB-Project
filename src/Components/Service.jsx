@@ -84,8 +84,8 @@ const Service = () => {
   return (
     <div>
       <Navbar />
-      <div className="w-full mx-auto text-center mt-10 mb-10">
-        <h2 className="font-semibold text-xl tracking-wide text-slate-700 section-title">
+      <div className="w-full mx-auto text-center mt-20 mb-10">
+        <h2 className="font-semibold text-xl tracking-wide text-blue-500 mt-5 section-title">
           Experience Luxury Travel with Us
         </h2>
         <div className="w-full px-4 md:px-10 mt-6">
