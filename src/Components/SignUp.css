@@ -15,6 +15,11 @@
     justify-content: center;
     align-items: center;
   }
+  .signupimage h2 {
+    font-size: 80px; 
+    font-weight: bold;
+    color: #fff; 
+  }
   
   .signupform {
     flex: 1;
@@ -24,4 +29,7 @@
   
   .signupform h2 {
     font-weight: bold;
+  }
+  .signupform input {
+    margin-bottom: 10px;
   }
