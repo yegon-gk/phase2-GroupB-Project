@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+.home-page {
+  text-align: center;
+}
+
+.home-main {
+  background-image: url("https://tinyurl.com/22xh5jm9");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.home-title,
+.home-text {
+  color: white;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.home-text {
+  font-size: 1.3rem;
+  top: 58%; 
+}
+
+.home-content {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.home-content p {
+  font-size: 14px;
+}
+
+.home-content p,
+.home-right-section p,
+.home-left-section p {
+  color: #282c34;
+}
+
+.home-section ,
+.home-section-unhidden,
+.home-section-hidden {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+.home-section img,
+.home-section-hidden img,
+.home-section-unhidden img {
+  width: 420px; 
+  max-width: 100%; 
+  height: auto; 
+  max-height: 60vh;
+  object-fit: cover;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-section img:hover ,
+.home-section-unhidden img:hover,
+.home-section-hidden img:hover{
+  filter: brightness(1.05);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.home-right-section {
+  width: 500px;
+  height: 200px;
+}
+
+.home-left-section {
+   width: 600px;
+}
+
+.home-section p,
+.home-section-hidden p,
+.home-section-unhidden p{
+  margin-top: 20px;
+}
+
+.home-right-section,
+.home-left-section {
+  min-height: 220px;
+}
+
+.home-section h2,
+.home-section-unhidden h2,
+.home-section-hidden h2 {
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .home-section-hidden {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .home-section-unhidden {
+    display: none;
+  }
+}
+

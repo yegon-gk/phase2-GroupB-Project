@@ -1,16 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './Components/Home';
 
 function App() {
   return (
-    <div className="App">
-ft-service
-      <service/>
-
-      <header className="App-header">
-      
-      </header>
-Dev
+    <div>
+    <Home/>
     </div>
   );
 }
