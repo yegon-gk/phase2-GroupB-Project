@@ -7,3 +7,12 @@
 .home-page {
   text-align: center;
 }
+
+.home-main {
+  background-image: url("https://tinyurl.com/22xh5jm9");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
