@@ -62,3 +62,15 @@
   align-items: center;
   padding: 15px;
 }
+
+.home-section img,
+.home-section-hidden img,
+.home-section-unhidden img {
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
