@@ -16,3 +16,13 @@
   height: 100vh;
   position: relative;
 }
+
+.home-title,
+.home-text {
+  color: white;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
