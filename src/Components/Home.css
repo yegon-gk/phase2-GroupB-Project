@@ -70,8 +70,10 @@
 .home-section img,
 .home-section-hidden img,
 .home-section-unhidden img {
-  width: 40%;
-  height: 40%;
+  width: 400px; 
+  max-width: 100%; 
+  height: auto; 
+  max-height: 40vh;
   object-fit: cover;
   border-radius: 20px;
   cursor: pointer;
@@ -87,12 +89,17 @@
 }
 
 .home-right-section {
-  width: 400px;
+  width: 500px;
   height: 200px;
 }
 
 .home-left-section {
-   width: 500px;
+   width: 600px;
+}
+.home-section ,
+.home-section-hidden,
+.home-section-unhidden {
+  margin-bottom: 20px;
 }
 
 .home-section p,
