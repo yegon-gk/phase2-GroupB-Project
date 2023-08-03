@@ -1,4 +1,24 @@
+import React from "react";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
+
+const blogs = [
+  {
+    src: "https://tinyurl.com/2ykhczkz",
+    title: "Best Place To visit In Africa in 2023: Kenya",
+    bio: "August 3, 2023",
+  },
+  {
+    src: "https://tinyurl.com/23dblk5y",
+    title: "Wild Encounters Await: Masai Mara Game Drive Exploration",
+    bio: "September 20,2022",
+  },
+  {
+    src: "https://tinyurl.com/228xjvxe",
+    title: "Serenity Unveiled: Witness the Enchanting Sunset at Diani Beach.",
+    bio: "December 8,2022",
+  },
+];
 
 function About() {
   return (
@@ -10,7 +30,6 @@ function About() {
           More Than 10 Years Of Experience, Variety Of Tour Packages, Best Deals
           And Personalised Services.
         </p>
-
         <div className=" flex flex-wrap justify-center items-center gap-10 mt-10">
           <div className="flex flex-wrap flex-col justify-center items-center md:flex-row gap-10">
             <img
@@ -50,7 +69,33 @@ function About() {
           </div>
         </div>
       </div>
-
+      <div className="mt-10 mb-10 mx-auto text-center">
+        <h2 className="font-bold text-2xl mt-4 mb-4">
+          Discover Dream Destinations with Airbnb Tales.
+        </h2>
+        <div className="mx-auto p-4 flex flex-wrap gap-2 justify-evenly items-center">
+          {blogs.map(function (item, index) {
+            return (
+              <div
+                key={index}
+                className="w-[400px] min-h-[300px] shadow-xl p-2 flex flex-col justify-center items-center"
+              >
+                <img
+                  src={item.src}
+                  className="mt-2 rounded-md cursor-pointer hover:scale-105 transition-all duration-300 mb-2 hover:shadow-lg"
+                  alt="not found"
+                  key={item.index}
+                  loading="lazy"
+                  width={350}
+                />
+                <p>{item.bio}</p>
+                <h2>{item.title}</h2>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }

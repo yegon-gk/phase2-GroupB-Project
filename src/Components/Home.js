@@ -1,14 +1,15 @@
 import React from 'react'
 import "./Home.css";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function Home() {
   return (
     <div className="home-page">
       <Navbar />
       <div className="home-main">
-        <h1 className="home-title">Embrace the Adventure</h1>
-        <p className="home-text">Choose Your Favourite Destination</p>
+        <h1 className="home-title"> Discover, Embrace, Book</h1>
+        <p className="home-text">Choose Your Favourite Home</p>
       </div>
 
       <div className="home-content">
@@ -83,6 +84,7 @@ function Home() {
         </div>
         <img src="https://tinyurl.com/2y7fswym" alt="wooden-dock" />
       </div>
+      <Footer />
     </div>
   );
 }

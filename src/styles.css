@@ -194,5 +194,15 @@ button:hover {
 
 .image-size {
   height: 200px;
-  width: 70%;
+  width: 100%;
+}
+
+button.bg-blue-500 {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+input[type="text"].search-input {
+  font-size: 0.875rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
 }

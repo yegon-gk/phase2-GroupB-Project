@@ -1,35 +1,46 @@
 .signupcontainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .signupimage {
-    flex: 1;
-    background-image: url('https://images.hdqwalls.com/wallpapers/nature-background.jpg'); 
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .signupimage h2 {
-    font-size: 80px; 
-    font-weight: bold;
-    color: #fff; 
-  }
-  
-  .signupform {
-    flex: 1;
-    padding: 20px;
-    max-width: 400px;
-  }
-  
-  .signupform h2 {
-    font-weight: bold;
-  }
-  .signupform input {
-    margin-bottom: 10px;
-  }
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.signupimage {
+  flex: 1;
+  background-image: url('https://images.hdqwalls.com/wallpapers/nature-background.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupform {
+  flex: 1;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.signupform h2 {
+  font-weight: bold;
+}
+
+.signupform input {
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.signupform button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.signupform button:hover {
+  background-color: #007bff;
+}
