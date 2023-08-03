@@ -6,6 +6,11 @@ import "../styles.css";
 import "./service.css";
 
 const Card = ({ tour, isSelected, onToggleSelect, onBookNow, onCancelBooking }) => {
+  const renderStars = (rating) => {
+    const stars = "\u2605".repeat(rating);
+    return stars;
+  };
+
   return (
     <div className={`card ${isSelected ? "selected" : ""}`}>
       <div className="image-container">
@@ -22,8 +27,8 @@ const Card = ({ tour, isSelected, onToggleSelect, onBookNow, onCancelBooking }) 
         </h3>
       </div>
       <div className="image-details text-center">
-        <p className="text-white">{tour.location}</p>
-        <p className="text-yellow-500">Ratings: {tour.ratings} &#9733;</p>
+        <p className="text-black">{tour.location}</p>
+        <p className="text-yellow-500">Ratings: {renderStars(tour.ratings)}</p>
       </div>
       <div className="image-info bg-white p-4 rounded mt-4 text-center">
         <p className="text-gray-600">{tour.info}</p>
@@ -81,7 +86,6 @@ const Service = () => {
 
     setTours((prevTours) => [...prevTours, newImage]);
 
-    // Clear form fields
     setImageUrl("");
     setImageName("");
     setImageLocation("");
@@ -89,7 +93,6 @@ const Service = () => {
     setImageInfo("");
   };
 
-  // Function to filter cards based on the letters clicked
   const filteredTours = tours.filter((tour) =>
     tour.name.toLowerCase().startsWith(searchTerm.toLowerCase())
   );
@@ -107,7 +110,7 @@ const Service = () => {
             placeholder="Search by title"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="bg-gray-200 text-gray-800 px-3 py-2 rounded mb-4"
+            className="bg-gray-200 text-gray-800 px-1 py-1 rounded mb-4"
           />
           <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredTours.map((tour) => (
@@ -169,6 +172,15 @@ const Service = () => {
               Add Image
             </button>
           </div>
+        </div>
+        <div className="flex justify-center">
+          <input
+            type="text"
+            placeholder="Search by title"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="bg-gray-200 text-gray-800 px-2 py-1 rounded mb-4"
+          />
         </div>
       </div>
       <Footer />
