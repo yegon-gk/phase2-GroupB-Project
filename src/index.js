@@ -47,13 +47,13 @@ const ContactForm = () => {
   );
 };
 
-function App() {
+const App = () => {
   return (
     <div>
       <ContactForm />
     </div>
   );
-}
+};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -61,4 +61,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
