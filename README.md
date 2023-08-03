@@ -11,6 +11,8 @@
 #### Repository link
 https://github.com/KIPROTYCH/Group-B-Project.git
 
+#### Figme Design Link
+https://www.figma.com/file/grlQaIbSNS6CmAUicwo1va/Untitled?type=design&node-id=0-1&mode=design&t=MXe2I8Hyzi5t8jTi-0
 
 ## Table of Content
 1. Description.
