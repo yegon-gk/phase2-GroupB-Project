@@ -130,7 +130,7 @@ const Service = () => {
           </ul>
           <div className="mb-6"></div>
           <div className="mb-4 p-4 bg-gray-500 rounded-lg">
-            <h3 className="text-xl font-semibold mb-2">Add New Image</h3>
+            <h3 className="text-xl font-semibold mb-2">List on GlobalWander, start earning.</h3>
             <input
               type="text"
               placeholder="Image URL"
@@ -169,7 +169,7 @@ const Service = () => {
               className="bg-blue-500 text-white px-3 py-2 rounded"
               onClick={handleAddImage}
             >
-              Add Image
+              Post
             </button>
           </div>
         </div>
