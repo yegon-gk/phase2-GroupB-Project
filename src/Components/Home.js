@@ -9,12 +9,11 @@ function Home() {
       <Navbar />
       <div className="home-main">
         <h1 className="home-title"> Discover, Embrace, Book</h1>
-        <p className="home-text">Choose Your Favourite Home</p>
+        <p className="home-text">Home Away from Home</p>
       </div>
 
       <div className="home-content">
-        <h1>Popular Destination</h1>
-        <p>Tours give you the opportunity to see a lot, within a time frame</p>
+        <h1>Exquisite Luxury: Discover the Pinnacle of Stay!</h1>
       </div>
 
       <div className="home-section">
