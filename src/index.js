@@ -1,17 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createRoot } from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-import App from './App';
+import ContactForm from './Components/ContactForm';
 import './Components/Contact.css';
 
-const rootElement = document.getElementById('root');
-const root = createRoot(rootElement);
+function App() {
+  return (
+    <div>
+      <ContactForm />
+    </div>
+  );
+}
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <App />
   </React.StrictMode>
 );
+
+export default App;
+
