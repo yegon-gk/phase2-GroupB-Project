@@ -1,0 +1,76 @@
+/* Common styles for both sign-up and login forms */
+.form-container {
+  flex: 1;
+  padding: 20px;
+  max-width: 400px;
+  margin: 50px;
+  border: 1px solid black;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f7f7f7;
+}
+
+.form-container h2 {
+  font-weight: bold;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-container button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #007bff;
+}
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 10vh;
+}
+
+.signup-image {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 10vh;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
