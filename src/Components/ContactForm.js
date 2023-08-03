@@ -29,7 +29,7 @@ const ContactForm = () => {
 
   return (
     <div>
-      <h1 className="header">Send a message to us!</h1>
+      <h1 className="header">Reach out to us!</h1>
       <form className="contact-form" onSubmit={handleSubmit}>
         <label id="name">Name:</label>
         <input type="text" id="name" name="name" value={name} onChange={handleChange} />
