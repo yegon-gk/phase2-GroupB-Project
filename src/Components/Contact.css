@@ -35,13 +35,13 @@ textarea {
   font-size: 16px;
 }
 
-input:focus,
+/*input:focus,
 textarea:focus {
   outline: none;
   border-color: #007bff;
   box-shadow: 0 0 5px #007bff;
 }
-
+*/
 button {
   padding: 12px 20px;
   background-color: #007bff;
