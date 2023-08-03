@@ -11,6 +11,8 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    alert("Thank you for your feedback.");
+
     setTimeout(() => {
       setName("");
       setEmail("");
@@ -60,7 +62,9 @@ const ContactForm = () => {
           onChange={handleChange}
         />
 
-        <button className="btn" type="submit">Send Message</button>
+        <button className="btn" type="submit">
+          Send Message
+        </button>
       </form>
       <Footer />
     </div>
