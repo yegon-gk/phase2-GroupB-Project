@@ -52,8 +52,7 @@ function About() {
             />
             <p className="lg:w-[800px] md:w-[600px] w-fit p-2 text-left">
               Airbnb Plus is a new tier of homes on Airbnb that have been
-              verified for quality and comfort, and was inspired by some of
-              Airbnb's best hosts and homes.
+              verified for quality and comfort.
             </p>
           </div>
           <div className="flex flex-wrap justify-center items-center flex-col md:flex-row gap-10">
